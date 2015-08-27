@@ -1,0 +1,11 @@
+<ul>
+  <% @genre.artists.each do |artist| %>
+    <li><%= link_for(artist) %></li>
+  <% end %>
+</ul>
+
+<ul>
+  <% @genre.songs.each do |song| %>
+    <li><%= link_for(song) %></li>
+  <% end %>
+</ul>
