@@ -1,0 +1,13 @@
+Song
+  name
+  slug
+  artist_id
+Artist
+  name
+  slug
+Genre
+  name
+  slug
+SongGenre
+  song_id
+  genre_id
