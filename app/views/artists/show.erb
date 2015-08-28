@@ -1,0 +1,12 @@
+Songs for <%= @artist.name %>
+<ul>
+  <% @artist.songs.each do |song| %>
+    <li><%= link_for(song) %></li>
+  <% end %>
+</ul>
+
+<ul>
+  <% @artist.genres.each do |genre| %>
+    <li><%= link_for(genre) %></li>
+  <% end %>
+</ul>

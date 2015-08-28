@@ -5,8 +5,17 @@ Song
 Artist
   name
   slug
+<<<<<<< HEAD
   song_id
 Genre
   name
   slug
   artist_id
+=======
+Genre
+  name
+  slug
+SongGenre
+  song_id
+  genre_id
+>>>>>>> lecture_review
